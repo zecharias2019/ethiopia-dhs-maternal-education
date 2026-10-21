@@ -1,0 +1,14 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Female children	Male children	Urban	Rural	Poor households	Non-poor households
+							
+educ_years	Maternal years of education	-0.018***	-0.017**	-0.026***	-0.015***	-0.019**	-0.019***
+		(0.006)	(0.008)	(0.008)	(0.005)	(0.008)	(0.005)
+							
+Observations		2,771	3,037	856	4,952	3,033	2,775
+Controls		YES	YES	YES	YES	YES	YES
+Region x age trends		YES	YES	YES	YES	YES	YES
+KP rk Wald F		27.750	44.250	10.000	48.730	28.570	61.520
+AR test p-value		0.008	0.034	0.007	0.017	0.114	0.000
+Avg. outcome		0.063	0.100	0.055	0.087	0.089	0.076
+Robust standard errors in parentheses							
+*** p<0.01, ** p<0.05, * p<0.1							

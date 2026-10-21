@@ -1,0 +1,18 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)
+VARIABLES	LABELS	>=Primary school (husband)	Age at first cohabitation	Age at first birth	Age at first sex	Migration to urban	Interregional migration	Household wealth: poor
+								
+treat	Exposed cohort (<=7 in 1994)	-0.012	0.139	0.174	0.034	0.012	-0.007	-0.025
+		(0.036)	(0.357)	(0.384)	(0.285)	(0.009)	(0.033)	(0.030)
+treat_inter	Age (centred) x Exposed cohort	-0.007**	0.137***	0.180***	0.108***	-0.001	0.002	-0.006**
+		(0.003)	(0.025)	(0.028)	(0.024)	(0.001)	(0.003)	(0.002)
+control_inter	Age (centred) x Unexposed cohort	-0.003	-0.064***	-0.044*	-0.079***	0.003**	0.003	-0.005
+		(0.003)	(0.022)	(0.024)	(0.020)	(0.001)	(0.003)	(0.003)
+educ_years	Maternal years of education	0.046***	0.169***	0.139***	0.154***	-0.009***	0.000	-0.026***
+		(0.001)	(0.021)	(0.020)	(0.014)	(0.002)	(0.001)	(0.002)
+								
+Observations		5,031	5,758	5,808	5,808	5,808	5,808	5,808
+Controls		YES	YES	YES	YES	YES	YES	YES
+Region x age trends		YES	YES	YES	YES	YES	YES	YES
+Avg. outcome		0.477	16.636	18.596	16.366	0.050	0.365	0.522
+Robust standard errors in parentheses								
+*** p<0.01, ** p<0.05, * p<0.1								

@@ -1,0 +1,13 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	LABELS	Omit Tigray: 2SLS	Omit Afar: 2SLS	Omit Amhara: 2SLS	Omit Oromia: 2SLS	Omit Somali: 2SLS	Omit Benishangul: 2SLS	Omit SNNP: 2SLS	Omit Gambela: 2SLS
+									
+educ_years	Maternal years of education	-0.007	-0.020***	-0.019***	-0.018***	-0.018***	-0.018***	-0.019***	-0.019***
+		(0.012)	(0.004)	(0.005)	(0.004)	(0.004)	(0.004)	(0.004)	(0.004)
+									
+Observations		5,007	5,196	5,013	4,846	5,086	5,261	4,955	5,292
+Controls		YES	YES	YES	YES	YES	YES	YES	YES
+KP rk Wald F		27.580	62.640	57.720	65.490	61.890	72.000	64.940	78.770
+AR test p-value		0.846	0.000	0.001	0.000	0.000	0.000	0.000	0.000
+Avg. outcome		0.084	0.083	0.080	0.082	0.082	0.083	0.080	0.085
+Robust standard errors in parentheses									
+*** p<0.01, ** p<0.05, * p<0.1									

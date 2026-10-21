@@ -1,0 +1,23 @@
+		(1)	(2)
+VARIABLES	LABELS	(1) Placebo instrument Unexposed cohorts	(2) Placebo geography Non-reform regions
+			
+placebo_treat		-0.315*	
+		(0.174)	
+placebo_treat_inter		-0.059	
+		(0.054)	
+placebo_control_inter		-0.124**	
+		(0.060)	
+treat	Exposed cohort (<=7 in 1994)		-0.946
+			(0.753)
+treat_inter	Age (centred) x Exposed cohort		0.050
+			(0.058)
+control_inter	Age (centred) x Unexposed cohort		-0.179***
+			(0.054)
+			
+Observations		2,560	998
+Controls		YES	YES
+Region x age trends		YES	YES
+KP rk Wald F		1.636	5.210
+Avg. outcome		1.080	6.476
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

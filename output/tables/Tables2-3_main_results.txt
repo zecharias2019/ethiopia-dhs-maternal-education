@@ -1,0 +1,20 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	LABELS	Education in years: FS	Infant mortality: RF	Infant mortality: 2SLS	Infant mortality: OLS	Education in years: FS	Infant mortality: RF	Infant mortality: 2SLS	Infant mortality: OLS
+									
+treat	Exposed cohort (<=7 in 1994)	0.582**	0.015			0.622***	-0.014		
+		(0.251)	(0.024)			(0.202)	(0.011)		
+treat_inter	Age (centred) x Exposed cohort	-0.227***	0.004***			-0.226***	0.004***		
+		(0.029)	(0.001)			(0.029)	(0.001)		
+control_inter	Age (centred) x Unexposed cohort	-0.102***	0.004*			-0.094***	0.002		
+		(0.019)	(0.002)			(0.015)	(0.001)		
+educ_years	Maternal years of education			-0.018***	-0.005***			-0.020***	-0.005***
+				(0.004)	(0.001)			(0.004)	(0.001)
+									
+Observations		5,808	5,808	5,808	5,808	8,143	8,143	8,143	8,143
+Controls		YES	YES	YES	YES	YES	YES	YES	YES
+Region x age trends		YES	YES	YES	YES	YES	YES	YES	YES
+Avg. outcome				0.082	0.082			0.085	0.085
+KP rk Wald F				71.021				80.298	
+AR test p-value				0.000				0.000	
+Robust standard errors in parentheses									
+*** p<0.01, ** p<0.05, * p<0.1									

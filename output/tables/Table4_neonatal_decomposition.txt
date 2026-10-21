@@ -1,0 +1,14 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	Infant mortality (death <12 months)	Neonatal mortality (death at month 0)	Post-neonatal mortality (death months 1-11)
+				
+educ_years	Maternal years of education	-0.018***	-0.013***	-0.005**
+		(0.004)	(0.004)	(0.002)
+				
+Observations		5,808	5,808	5,808
+Controls		YES	YES	YES
+Region x age trends		YES	YES	YES
+KP rk Wald F		71.021	71.021	71.021
+AR test p-value		0.000	0.007	0.009
+Avg. outcome		0.082	0.051	0.032
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

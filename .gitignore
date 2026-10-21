@@ -1,0 +1,14 @@
+# Ignore raw and derived DHS datasets (DHS Licensing Constraint)
+/data/raw/*.DTA
+/data/raw/*.dta
+/data/derived/*.DTA
+/data/derived/*.dta
+
+# Ignore Stata temporary files and logs
+*.gph
+*.log
+/logs/*.txt
+
+# Ignore OS metadata
+.DS_Store
+Thumbs.db
